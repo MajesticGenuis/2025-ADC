@@ -1,0 +1,23 @@
+# Auto detect text files and normalize line endings
+* text=auto
+
+# Ensure all script and text files use LF
+*.cs eol=lf
+*.js eol=lf
+*.shader eol=lf
+*.txt eol=lf
+*.json eol=lf
+*.xml eol=lf
+
+# Force Unity files to always use LF
+*.meta eol=lf
+*.unity eol=lf
+*.prefab eol=lf
+*.mat eol=lf
+
+# Binary files should be unchanged
+*.png binary
+*.jpg binary
+*.dll binary
+*.fbx binary
+*.exe binary
